@@ -7,6 +7,10 @@
     font-family: 'Netflix Font', sans-serif;
 }
 
+/* html{
+    font-size: 0.625;
+} */
+
 body{
     background-color: #020221;
 }
@@ -14,7 +18,7 @@ body{
 .container {
     height: 100vh;
     width: auto;
-    background: -webkit-linear-gradient(rgba(1, 3, 50, 0.5), rgba(0, 3, 100, 0.4)), url("image/background1.jpg");
+    background: -webkit-linear-gradient(rgba(1, 3, 50, 0.5), rgba(0, 3, 100, 0.4)), url("/image/background1.jpg");
     filter: brightness(100%);
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,9 +58,9 @@ body{
 }
 
 .netflix-right .sign-in {
-    border: 1px solid red;
+    border: 0.063rem solid red;
     background-color: red;
-    border-radius: 3px;
+    border-radius: 0.188rem;
     border-width: 0.4rem;
     cursor: pointer;
 }
@@ -66,22 +70,22 @@ body{
     position: relative;
     top: 0.15em;
     padding: 0 0.5rem;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     font-weight: 600;
     font-size: 0.9rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .netflix-right .lang p {
-    border: 1px solid lightgray;
+    border: 0.063rem solid lightgray;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 0.399rem 1rem;
-    border-radius: 4px;
+    border-radius: 0.25rem;
 }
 
 .fa-sort-down {
     position: relative;
-    bottom: 2.5px;
+    bottom: 0.156rem;
 }
 
 .text-content {
@@ -97,6 +101,7 @@ body{
     align-items: end;
     font-size: 5rem;
     font-weight: bold;
+    flex-wrap: wrap;
     color: white;
 }
 
@@ -118,16 +123,17 @@ body{
 .membership {
     position: relative;
     background: linear-gradient(to right, rgb(225, 10, 10), blue);
-    padding: 4px;
+    padding: 0.65rem;
     margin-top: 3.5rem;
-    border-radius: 8px;
+    border-radius: 0.5rem;
+    z-index: 999;
 }
 
 .email{
     background-color: rgb(3, 5, 30);
-    padding: 3px;
+    padding: 0.188rem;
     color: white;
-    border-radius: 5px;
+    border-radius: 0.313rem;
 }
 
 .e-b-box{
@@ -138,9 +144,9 @@ body{
     width: 25rem;
     height: 3.4rem;
     padding-top: 0.3rem;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     background-color: rgb(19, 19, 19);
-    border: 0.1px solid grey;
+    border: 0.006rem solid grey;
     color: white;
     padding-left: 1rem;
 }
@@ -153,7 +159,7 @@ body{
     font-size: larger;
     font-weight: 550;
     border: none;
-    border-radius: 6px;
+    border-radius: 0.375rem;
     cursor: pointer;
 }
 
@@ -179,34 +185,36 @@ body{
     top: 36vh;
 }
 
+
 .section-main{
-    display: flex;
     width: 100%;
+    display: flex;
     background-color: #090322;
-    margin: auto;
-    align-items: center;
-    padding: 0 10rem;
-    border-bottom: 0.2px solid grey;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    padding: 0 9rem;
 }
+
+
 
 .section-main:nth-child(4){
     border: none;
 }
 
-
-
-
 .section-main .text-1{
     height: 100%;
     color: white;
+    margin: auto ;
+}
+
+.section-main .img-1{
     margin: auto;
-    border-bottom: ;
 }
 
 .text-1 h1{
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-weight: bolder;
-    padding-bottom: 1rem;
 }
 
 .text-1 p{
@@ -303,11 +311,11 @@ footer{
 }
 
 #bottom-lang{
-    border: 1px solid grey;
+    border: 0.1rem solid grey;
     background-color: rgb(26, 25, 25);
     padding: 0.3rem 0.9rem;
     color: white;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     display: inline-block;
 }
 
@@ -315,3 +323,130 @@ footer{
     color: white;
     font-size: 0.8rem;
 }
+
+hr{
+    width: 80%;
+    opacity: 0.5;
+    margin: auto;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    
+    .text-content h1 {
+    font-size: 3rem;
+    }
+    
+    .e-b-box button{
+        width: 6rem;
+        font-size: 0.8rem;
+        margin-top: 0.8rem;
+    }
+
+    .text-content h2 {
+    font-size: 1.5rem;
+    }
+    
+    .section-main {
+    width: 100%;
+    }
+    
+    .Q-box {
+    width: 60%;
+    }
+    
+    .Q-row {
+    height: 6vh;
+    }
+
+    .section{
+        margin-top: 5rem;
+    }
+
+    .section-main h1{
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+
+    .section-main img{
+        width: 20rem;
+    }
+
+    .e-b-box input{
+        width: fit-content;
+    }
+    
+    }
+    
+    /*
+    This media query will apply the CSS styles to screens that are smaller than 480px wide.
+    */
+    
+    @media screen and (max-width: 480px) {
+    
+    /*
+    This code will make the text-content h1 and h2 elements even smaller so that they fit on even smaller screens.
+    */
+    
+    .text-content h1 {
+    font-size: 2rem;
+    }
+    
+    .text-content h2 {
+    font-size: 1rem;
+    }
+    
+    /*
+    This code will hide the footer-box div on even smaller screens.
+    */
+    
+    .footer-box {
+    display: none;
+    }
+    
+    }
+    
+    @media only screen and (min-width: 983px) and (max-width:1360px) {
+        .text-content h1 {
+          font-size: 4.3rem;
+          position: absolutes;
+        }
+
+        .section{
+            margin-top: 5rem;
+        }
+
+        .section-main h1{
+            font-size: 2rem;
+        }
+
+        .section-main img{
+            width: 30rem;
+        }
+
+      }
+      
+      @media only screen and (min-width: 768px) and (max-width:984px){
+        .text-content h1 {
+            font-size: 3.6rem;
+          }
+
+        .e-b-box button{
+            width: 6rem;
+            font-size: 0.8rem;
+            margin-top: 0.8rem;
+        }
+
+        .section{
+            margin-top: 5rem;
+        }
+
+        .section-main h1{
+            font-size: 2rem;
+        }
+
+        .section-main img{
+            width: 30rem;
+        }
+
+      }
