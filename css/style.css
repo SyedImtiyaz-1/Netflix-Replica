@@ -415,6 +415,7 @@ hr {
 
     .text-content h1 {
         font-size: 3rem;
+        height: fit-content;
         width: 80%;
         padding-top: 10rem;
         z-index: 999;
@@ -476,7 +477,18 @@ hr {
     .section-main {
         width: 100%;
     }
+    .section{
+        margin-top: 0;
+    }
 
+    .Question{
+        margin-top: 5rem;
+        height: fit-content;
+        margin-bottom: 5rem;
+    }
+    .Q-heading h1{
+        font-size: 1.2rem;
+    }
     /*
     This code will hide the footer-box div on even smaller screens.
     */
@@ -514,7 +526,7 @@ hr {
         /* padding: 0.2rem;*/
         position: relative;
         buttom: 50vh;
-        height: 55vh;
+        height: 60vh;
         margin: 0;
         width: 100%;
         background: -webkit-linear-gradient(rgba(1, 3, 50, 0.5), rgba(0, 3, 100, 0.4)), url("/image/background1.jpg");
