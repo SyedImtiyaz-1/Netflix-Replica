@@ -409,24 +409,28 @@ hr {
     }
 
     .text-content {
-        margin: 0;
+        margin: auto;
+        flex-wrap: wrap;
     }
 
     .text-content h1 {
-        font-size: 03rem;
-        /* display: none; */
-        bottom: 24rem;
+        font-size: 3rem;
+        width: 80%;
+        padding-top: 10rem;
         z-index: 999;
         position: absolute;
         padding: 0 0.5rem;
+        word-wrap: break-word;
+        align-items: start;
     }
 
     .text-content h2 {
         font-size: 1rem;
-        /* display: none; */
-        bottom: 21.5rem;
+        align-items: end;
+        word-wrap: break-word;
         z-index: 999;
         position: absolute;
+        top: 18rem;
         padding: 0 0.5rem;
     }
 
@@ -510,7 +514,7 @@ hr {
         /* padding: 0.2rem;*/
         position: relative;
         buttom: 50vh;
-        height: 70vh;
+        height: 55vh;
         margin: 0;
         width: 100%;
         background: -webkit-linear-gradient(rgba(1, 3, 50, 0.5), rgba(0, 3, 100, 0.4)), url("/image/background1.jpg");
@@ -539,7 +543,7 @@ hr {
 
     .email {
         position: relative;
-        top: 21rem;
+        top: 18rem;
     }
 
 }
