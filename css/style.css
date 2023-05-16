@@ -340,7 +340,7 @@ hr{
     .e-b-box button{
         width: 6rem;
         font-size: 0.8rem;
-        margin-top: 0.8rem;
+        margin-top: 0.6rem;
     }
 
     .text-content h2 {
@@ -382,12 +382,14 @@ hr{
     This media query will apply the CSS styles to screens that are smaller than 480px wide.
     */
     
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 580px) {
     
     /*
     This code will make the text-content h1 and h2 elements even smaller so that they fit on even smaller screens.
     */
     
+
+
     .text-content h1 {
     font-size: 2rem;
     }
@@ -395,15 +397,89 @@ hr{
     .text-content h2 {
     font-size: 1rem;
     }
+
+    .text-1 p {
+    font-size: 0.8rem;
+    }
+
+    .section{
+        margin-top: 9rem;
+    }
+
+    .section-main h1{
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+
+    .section-main{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .section-main img{
+        width: 12rem;
+    }
+
+    .Q-box{
+        width: 100%;
+    }
+
+    .Q-row h2{
+        font-size: 1rem;
+    }
+
+    .e-b-box input{
+        width: fit-content;
+    }
+
+    .section-main{
+        width: 100%;
+    }
     
     /*
     This code will hide the footer-box div on even smaller screens.
     */
     
     .footer-box {
-    display: none;
+    width: 100%;
+    margin: auto;
     }
+
+    .netflix-left img{
+        width: 7rem;
+    }
+
+    .netflix-right{
+        position: absolute;
+        right: 0.2rem;
+        font-size: 0.8rem;
+    }
+    .sign-in{
+        height: 2.1rem;
+    }
+
+    .e-b-box{
+        width: fit-content;
+        padding: 0.2rem;
+    }
+    .center-email h3{
+        padding: 0.2rem;
+    }
+    .membership{
+        padding: 0.2rem;
+    }
+
+    footer{
+        width: fit-content;
+    }
+    /* footer */
+    .footer-box {
+        width: 100%;
+        margin: 0;
+    }
+
     
+
     }
     
     @media only screen and (min-width: 983px) and (max-width:1360px) {
