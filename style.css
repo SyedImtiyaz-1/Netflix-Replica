@@ -8,12 +8,12 @@
 }
 
 body{
-    background-color: #020227;
+    background-color: #020221;
 }
 
 .container {
     height: 100vh;
-    width: 100%;
+    width: auto;
     background: -webkit-linear-gradient(rgba(1, 3, 50, 0.5), rgba(0, 3, 100, 0.4)), url("image/background1.jpg");
     filter: brightness(100%);
     background-repeat: no-repeat;
@@ -95,7 +95,7 @@ body{
     height: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: end;
-    font-size: 5.5rem;
+    font-size: 5rem;
     font-weight: bold;
     color: white;
 }
@@ -117,19 +117,21 @@ body{
 
 .membership {
     position: relative;
-    background: linear-gradient(to right, rgb(175, 7, 7), blue);
-    padding: 5px;
+    background: linear-gradient(to right, rgb(225, 10, 10), blue);
+    padding: 4px;
     margin-top: 3.5rem;
+    border-radius: 8px;
 }
 
 .email{
     background-color: rgb(3, 5, 30);
     padding: 3px;
     color: white;
+    border-radius: 5px;
 }
 
 .e-b-box{
-    padding:  0 1.5rem 1.5rem 1.5rem;
+    padding: 0 1.5rem 1.5rem 2.5rem;
 }
 
 .e-b-box input{
@@ -166,14 +168,150 @@ body{
 
 .center-email h3{
     font-weight: 500;
-    padding: 1.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 2.5rem;
 }
 
 .section{
     width: 80%;
-    background-color: #020220;
-    height: 200vh;
+    height: fit-content;
     margin: auto;
     position: relative;
     top: 36vh;
+}
+
+.section-main{
+    display: flex;
+    width: 100%;
+    background-color: #090322;
+    margin: auto;
+    align-items: center;
+    padding: 0 10rem;
+    border-bottom: 0.2px solid grey;
+}
+
+.section-main:nth-child(4){
+    border: none;
+}
+
+
+
+
+.section-main .text-1{
+    height: 100%;
+    color: white;
+    margin: auto;
+    border-bottom: ;
+}
+
+.text-1 h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+}
+
+.text-1 p{
+    font-size: 1.1rem;
+}
+
+.Question{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    margin: 20vh auto;
+    margin-bottom: 0;
+}
+
+.Q-heading{
+    background: #020221;
+    padding-bottom: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.Q-box{
+    width: 80%;
+    height: auto;
+    align-items: center;
+    background-color: #020220;
+    margin: auto;
+    color: white;
+}
+
+.Q-box h2{
+    font-weight: 500;
+}
+
+.Q-row{
+    background-color: rgb(19, 33, 68);
+    margin-bottom: 0.6rem;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Q-row h2{
+    padding: 1rem;
+}
+
+.fa-add{
+    padding-right: 1.1rem;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.sec-end{
+    padding: 0.8rem 0;
+    font-size: 1.2rem;
+}
+
+.bottom-email{
+    padding: 0;
+}
+
+footer{
+    background-color:#020220;
+    height: 50vh;
+    width: 100%;
+}
+.footer-box{
+    height: fit-content;
+    width: 60%;
+    margin: auto 9.5rem;
+}
+
+.footer-box .number{
+    display: block;
+    color: hsl(208, 34%, 83%);
+}
+
+.footer-box span{
+    text-decoration: underline hsl(208, 34%, 83%);;
+}
+
+.main-footer{
+    height: fit-content;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer .footer-content p{
+    padding: 0.4rem 0;
+    text-decoration: underline hsl(208, 34%, 83%);
+    color: hsl(208, 34%, 83%);
+    font-size: 0.9rem;
+}
+
+#bottom-lang{
+    border: 1px solid grey;
+    background-color: rgb(26, 25, 25);
+    padding: 0.3rem 0.9rem;
+    color: white;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+#netflix-end{
+    color: white;
+    font-size: 0.8rem;
 }
