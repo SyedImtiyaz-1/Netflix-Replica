@@ -11,7 +11,7 @@
     font-size: 0.625;
 } */
 
-body{
+body {
     background-color: #020221;
 }
 
@@ -129,18 +129,18 @@ body{
     z-index: 999;
 }
 
-.email{
+.email {
     background-color: rgb(3, 5, 30);
     padding: 0.188rem;
     color: white;
     border-radius: 0.313rem;
 }
 
-.e-b-box{
+.e-b-box {
     padding: 0 1.5rem 1.5rem 2.5rem;
 }
 
-.e-b-box input{
+.e-b-box input {
     width: 25rem;
     height: 3.4rem;
     padding-top: 0.3rem;
@@ -151,7 +151,7 @@ body{
     padding-left: 1rem;
 }
 
-.e-b-box button{
+.e-b-box button {
     width: 12rem;
     height: 3.499rem;
     background-color: rgb(243, 24, 24);
@@ -163,21 +163,21 @@ body{
     cursor: pointer;
 }
 
-.btn{
+.btn {
     margin-left: 0.3rem;
 }
 
-.e-b-box button:hover{
+.e-b-box button:hover {
     background-color: rgb(255, 46, 46);
     transition: 0.2s;
 }
 
-.center-email h3{
+.center-email h3 {
     font-weight: 500;
     padding: 1.5rem 1.5rem 1.5rem 2.5rem;
 }
 
-.section{
+.section {
     width: 80%;
     height: fit-content;
     margin: auto;
@@ -186,7 +186,7 @@ body{
 }
 
 
-.section-main{
+.section-main {
     width: 100%;
     display: flex;
     background-color: #090322;
@@ -198,30 +198,30 @@ body{
 
 
 
-.section-main:nth-child(4){
+.section-main:nth-child(4) {
     border: none;
 }
 
-.section-main .text-1{
+.section-main .text-1 {
     height: 100%;
     color: white;
-    margin: auto ;
-}
-
-.section-main .img-1{
     margin: auto;
 }
 
-.text-1 h1{
+.section-main .img-1 {
+    margin: auto;
+}
+
+.text-1 h1 {
     font-size: 2.7rem;
     font-weight: bolder;
 }
 
-.text-1 p{
+.text-1 p {
     font-size: 1.1rem;
 }
 
-.Question{
+.Question {
     width: 100%;
     height: 100vh;
     align-items: center;
@@ -229,13 +229,13 @@ body{
     margin-bottom: 0;
 }
 
-.Q-heading{
+.Q-heading {
     background: #020221;
     padding-bottom: 0.8rem;
     font-size: 1.2rem;
 }
 
-.Q-box{
+.Q-box {
     width: 80%;
     height: auto;
     align-items: center;
@@ -244,11 +244,11 @@ body{
     color: white;
 }
 
-.Q-box h2{
+.Q-box h2 {
     font-weight: 500;
 }
 
-.Q-row{
+.Q-row {
     background-color: rgb(19, 33, 68);
     margin-bottom: 0.6rem;
     height: 9vh;
@@ -257,60 +257,62 @@ body{
     justify-content: space-between;
 }
 
-.Q-row h2{
+.Q-row h2 {
     padding: 1rem;
 }
 
-.fa-add{
+.fa-add {
     padding-right: 1.1rem;
     font-size: 2rem;
     font-weight: lighter;
 }
 
-.sec-end{
+.sec-end {
     padding: 0.8rem 0;
     font-size: 1.2rem;
 }
 
-.bottom-email{
+.bottom-email {
     padding: 0;
 }
 
-footer{
-    background-color:#020220;
+footer {
+    background-color: #020220;
     height: 50vh;
     width: 100%;
 }
-.footer-box{
+
+.footer-box {
     height: fit-content;
     width: 60%;
     margin: auto 9.5rem;
 }
 
-.footer-box .number{
+.footer-box .number {
     display: block;
     color: hsl(208, 34%, 83%);
 }
 
-.footer-box span{
-    text-decoration: underline hsl(208, 34%, 83%);;
+.footer-box span {
+    text-decoration: underline hsl(208, 34%, 83%);
+    ;
 }
 
-.main-footer{
+.main-footer {
     height: fit-content;
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
 }
 
-.main-footer .footer-content p{
+.main-footer .footer-content p {
     padding: 0.4rem 0;
     text-decoration: underline hsl(208, 34%, 83%);
     color: hsl(208, 34%, 83%);
     font-size: 0.9rem;
 }
 
-#bottom-lang{
+#bottom-lang {
     border: 0.1rem solid grey;
     background-color: rgb(26, 25, 25);
     padding: 0.3rem 0.9rem;
@@ -319,12 +321,12 @@ footer{
     display: inline-block;
 }
 
-#netflix-end{
+#netflix-end {
     color: white;
     font-size: 0.8rem;
 }
 
-hr{
+hr {
     width: 80%;
     opacity: 0.5;
     margin: auto;
@@ -332,197 +334,257 @@ hr{
 
 /* Responsive */
 @media screen and (max-width: 768px) {
-    
+
     .text-content h1 {
-    font-size: 3rem;
+        font-size: 3rem;
     }
-    
-    .e-b-box button{
+
+    .e-b-box button {
         width: 6rem;
         font-size: 0.8rem;
         margin-top: 0.6rem;
     }
 
     .text-content h2 {
-    font-size: 1.5rem;
-    }
-    
-    .section-main {
-    width: 100%;
-    }
-    
-    .Q-box {
-    width: 60%;
-    }
-    
-    .Q-row {
-    height: 6vh;
+        font-size: 1.5rem;
     }
 
-    .section{
+    .section-main {
+        width: 100%;
+    }
+
+    .Q-box {
+        width: 60%;
+    }
+
+    .Q-row {
+        height: 6vh;
+    }
+
+    .section {
         margin-top: 5rem;
     }
 
-    .section-main h1{
+    .section-main h1 {
         font-size: 1rem;
         padding: 0.5rem 0;
     }
 
-    .section-main img{
+    .section-main img {
         width: 20rem;
     }
 
-    .e-b-box input{
+    .e-b-box input {
         width: fit-content;
     }
-    
-    }
-    
-    /*
+
+}
+
+/*
     This media query will apply the CSS styles to screens that are smaller than 480px wide.
     */
-    
-    @media screen and (max-width: 580px) {
-    
+
+@media screen and (max-width: 580px) {
+
     /*
     This code will make the text-content h1 and h2 elements even smaller so that they fit on even smaller screens.
     */
-    
 
-
-    .text-content h1 {
-    font-size: 2rem;
-    }
-    
-    .text-content h2 {
-    font-size: 1rem;
-    }
-
-    .text-1 p {
-    font-size: 0.8rem;
-    }
-
-    .section{
-        margin-top: 9rem;
-    }
-
-    .section-main h1{
-        font-size: 1rem;
-        padding: 0.5rem 0;
-    }
-
-    .section-main{
+    .netflix-nav {
         width: 100%;
-        padding: 1rem;
+        padding: 0 1.2rem;
     }
 
-    .section-main img{
-        width: 12rem;
+    .container {
+        background: none;
     }
 
-    .Q-box{
-        width: 100%;
+    .hero-content {
+        width: 90%;
     }
 
-    .Q-row h2{
-        font-size: 1rem;
+    .email {
+        display: flex;
+
     }
 
-    .e-b-box input{
-        width: fit-content;
-    }
-
-    .section-main{
-        width: 100%;
-    }
-    
-    /*
-    This code will hide the footer-box div on even smaller screens.
-    */
-    
-    .footer-box {
-    width: 100%;
-    margin: auto;
-    }
-
-    .netflix-left img{
-        width: 7rem;
-    }
-
-    .netflix-right{
-        position: absolute;
-        right: 0.2rem;
-        font-size: 0.8rem;
-    }
-    .sign-in{
-        height: 2.1rem;
-    }
-
-    .e-b-box{
-        width: fit-content;
-        padding: 0.2rem;
-    }
-    .center-email h3{
-        padding: 0.2rem;
-    }
-    .membership{
-        padding: 0.2rem;
-    }
-
-    footer{
-        width: fit-content;
-    }
-    /* footer */
-    .footer-box {
-        width: 100%;
+    .text-content {
         margin: 0;
     }
 
-    
-
+    .text-content h1 {
+        font-size: 03rem;
+        /* display: none; */
+        bottom: 24rem;
+        z-index: 999;
+        position: absolute;
+        padding: 0 0.5rem;
     }
-    
-    @media only screen and (min-width: 983px) and (max-width:1360px) {
-        .text-content h1 {
-          font-size: 4.3rem;
-          position: absolutes;
-        }
 
-        .section{
-            margin-top: 5rem;
-        }
+    .text-content h2 {
+        font-size: 1rem;
+        /* display: none; */
+        bottom: 21.5rem;
+        z-index: 999;
+        position: absolute;
+        padding: 0 0.5rem;
+    }
 
-        .section-main h1{
-            font-size: 2rem;
-        }
+    .text-1 p {
+        font-size: 0.8rem;
+    }
 
-        .section-main img{
-            width: 30rem;
-        }
 
-      }
-      
-      @media only screen and (min-width: 768px) and (max-width:984px){
-        .text-content h1 {
-            font-size: 3.6rem;
-          }
+    .section-main h1 {
+        font-size: 2rem;
+        padding: 0.5rem 0;
+    }
 
-        .e-b-box button{
-            width: 6rem;
-            font-size: 0.8rem;
-            margin-top: 0.8rem;
-        }
+    .section-main {
+        width: 100%;
+        padding: 1rem;
+        flex-direction: column;
+    }
 
-        .section{
-            margin-top: 5rem;
-        }
+    .section-main img {
+        width: 16rem;
+    }
 
-        .section-main h1{
-            font-size: 2rem;
-        }
+    hr {
+        padding: 0.2rem;
+        color: rgb(33, 33, 33);
+        width: 90%;
+        background-color: rgb(33, 33, 33);
+    }
 
-        .section-main img{
-            width: 30rem;
-        }
+    .Q-box {
+        width: 100%;
+    }
 
-      }
+    .Q-row h2 {
+        font-size: 1rem;
+    }
+
+    .e-b-box input {
+        width: fit-content;
+    }
+
+    .section-main {
+        width: 100%;
+    }
+
+    /*
+    This code will hide the footer-box div on even smaller screens.
+    */
+
+    .footer-box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .netflix-left img {
+        width: 7rem;
+    }
+
+    .netflix-right {
+        position: absolute;
+        right: 0.2rem;
+        font-size: 0.8rem;
+        padding-right: 1rem;
+    }
+
+    .sign-in {
+        height: 2.1rem;
+    }
+
+    .e-b-box {
+        width: fit-content;
+        padding: 0.2rem;
+    }
+
+    .center-email h3 {
+        padding: 0.2rem;
+    }
+
+    .membership {
+        /* padding: 0.2rem;*/
+        position: relative;
+        buttom: 50vh;
+        height: 70vh;
+        margin: 0;
+        width: 100%;
+        background: -webkit-linear-gradient(rgba(1, 3, 50, 0.5), rgba(0, 3, 100, 0.4)), url("/image/background1.jpg");
+        filter: brightness(100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+    }
+
+
+
+    /* footer */
+    .main-footer {
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+
+    .number {
+        padding-bottom: 2rem;
+    }
+
+    #netflix-end {
+        padding-bottom: 2rem;
+    }
+
+    .email {
+        position: relative;
+        top: 21rem;
+    }
+
+}
+
+@media only screen and (min-width: 983px) and (max-width:1360px) {
+    .text-content h1 {
+        font-size: 4.3rem;
+        position: absolutes;
+    }
+
+    .section {
+        margin-top: 5rem;
+    }
+
+    .section-main h1 {
+        font-size: 2rem;
+    }
+
+    .section-main img {
+        width: 30rem;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:984px) {
+    .text-content h1 {
+        font-size: 3.6rem;
+    }
+
+    .e-b-box button {
+        width: 6rem;
+        font-size: 0.8rem;
+        margin-top: 0.8rem;
+    }
+
+    .section {
+        margin-top: 5rem;
+    }
+
+    .section-main h1 {
+        font-size: 2rem;
+    }
+
+    .section-main img {
+        width: 30rem;
+    }
+
+}
