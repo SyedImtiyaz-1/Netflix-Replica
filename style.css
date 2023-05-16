@@ -1,0 +1,179 @@
+@import url('https://fonts.cdnfonts.com/css/netflix-font');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Netflix Font', sans-serif;
+}
+
+body{
+    background-color: #020227;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: -webkit-linear-gradient(rgba(1, 3, 50, 0.5), rgba(0, 3, 100, 0.4)), url("image/background1.jpg");
+    filter: brightness(100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.netflix-nav {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    height: 10vh;
+}
+
+.netflix-left {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.netflix-left img {
+    width: 10rem;
+    align-items: center;
+    /* filter: brightness(100%); */
+}
+
+.netflix-right {
+    width: 70%;
+    display: flex;
+    align-self: center;
+    justify-content: right;
+    color: white;
+}
+
+.netflix-right .lang {
+    padding-right: 0.2em;
+    cursor: pointer;
+}
+
+.netflix-right .sign-in {
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 3px;
+    border-width: 0.4rem;
+    cursor: pointer;
+}
+
+.netflix-right .sign-in p {
+    display: flex;
+    position: relative;
+    top: 0.15em;
+    padding: 0 0.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.netflix-right .lang p {
+    border: 1px solid lightgray;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0.399rem 1rem;
+    border-radius: 4px;
+}
+
+.fa-sort-down {
+    position: relative;
+    bottom: 2.5px;
+}
+
+.text-content {
+    width: 100%;
+    height: 32vh;
+    margin: auto;
+}
+
+.text-content h1 {
+    display: flex;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: end;
+    font-size: 5.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.text-content h2 {
+    display: flex;
+    font-size: 2rem;
+    color: white;
+    padding-left: 0.2em;
+    height: 7vh;
+    align-items: center;
+}
+
+.hero-content {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+.membership {
+    position: relative;
+    background: linear-gradient(to right, rgb(175, 7, 7), blue);
+    padding: 5px;
+    margin-top: 3.5rem;
+}
+
+.email{
+    background-color: rgb(3, 5, 30);
+    padding: 3px;
+    color: white;
+}
+
+.e-b-box{
+    padding:  0 1.5rem 1.5rem 1.5rem;
+}
+
+.e-b-box input{
+    width: 25rem;
+    height: 3.4rem;
+    padding-top: 0.3rem;
+    border-radius: 5px;
+    background-color: rgb(19, 19, 19);
+    border: 0.1px solid grey;
+    color: white;
+    padding-left: 1rem;
+}
+
+.e-b-box button{
+    width: 12rem;
+    height: 3.499rem;
+    background-color: rgb(243, 24, 24);
+    color: white;
+    font-size: larger;
+    font-weight: 550;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn{
+    margin-left: 0.3rem;
+}
+
+.e-b-box button:hover{
+    background-color: rgb(255, 46, 46);
+    transition: 0.2s;
+}
+
+.center-email h3{
+    font-weight: 500;
+    padding: 1.5rem;
+}
+
+.section{
+    width: 80%;
+    background-color: #020220;
+    height: 200vh;
+    margin: auto;
+    position: relative;
+    top: 36vh;
+}
