@@ -119,10 +119,13 @@ body {
     height: 100%;
     margin: auto;
 }
+.spacing{
+    margin-top:36px;
+}
 
 .membership {
     position: relative;
-    background: linear-gradient(to right, rgb(225, 10, 10), blue);
+    color:white;
     padding: 0.65rem;
     margin-top: 3.5rem;
     border-radius: 0.5rem;
@@ -180,7 +183,7 @@ body {
 .section {
     width: 80%;
     height: fit-content;
-    margin: auto;
+    margin-top:180px;
     position: relative;
     top: 36vh;
 }
